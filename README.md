@@ -9,11 +9,11 @@
 }
 ```
 * 点击ctrl+shift+p或F1，输入set user 在弹出的输入框输入用户名。
-![](https://github.com/NateHuangHao/vscode-ext-phpeditinfo/tree/master/gif/show1.gif)
+![image](https://raw.githubusercontent.com/NateHuangHao/vscode-ext-phpeditinfo/master/gif/show1.gif)
 
 # 使用效果
 * 编辑完后按ctrl+s保存
-![](https://github.com/NateHuangHao/vscode-ext-phpeditinfo/tree/master/gif/show.gif)
+![image](https://raw.githubusercontent.com/NateHuangHao/vscode-ext-phpeditinfo/master/gif/show.gif)
 
 # 官方API文档
 * [点此跳转](https://code.visualstudio.com/docs/extensionAPI/vscode-api)
