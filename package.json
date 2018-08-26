@@ -1,9 +1,9 @@
 {
-    "name": "first-extension",
-    "displayName": "First Extension",
+    "name": "php-edit-info",
+    "displayName": "PHP edit info",
     "description": "",
     "version": "0.0.1",
-    "publisher": "demo",
+    "publisher": "NateHuang",
     "engines": {
         "vscode": "^1.26.0"
     },
@@ -22,10 +22,12 @@
                 "title": "set user"
             }
         ],
-        "keybindings": [{          
-            "command": "saveByAuthor", 
-            "key": "ctrl+s"
-        }]
+        "keybindings": [
+            {
+                "command": "saveByAuthor",
+                "key": "ctrl+s"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
@@ -39,5 +41,8 @@
         "vscode": "^1.1.21",
         "@types/node": "^8.10.25",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "vsce": "^1.46.0"
     }
 }
